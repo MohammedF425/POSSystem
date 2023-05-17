@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PosUIApplication.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:view="clr-namespace:PosUIApplication.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.BackgroundColor="#B2C9C8"
+    Shell.TabBarBackgroundColor="#574E4E"
+    >
+
+    <TabBar>
+        <Tab Title="Register">
+           <ShellContent ContentTemplate="{DataTemplate view:RegisterPage}" /> 
+        </Tab>
+        <Tab Title="Inventory">
+           <ShellContent ContentTemplate="{DataTemplate view:InventoryPage}"/> 
+        </Tab>
+        <Tab Title="Sales">
+           <ShellContent ContentTemplate="{DataTemplate view:SalesPage}" /> 
+        </Tab>
+        <Tab Title="Product Profile">
+           <ShellContent ContentTemplate="{DataTemplate view:ProductProfilePage}" /> 
+        </Tab>
+
+    </TabBar>
+
+</Shell>
+

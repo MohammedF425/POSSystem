@@ -1,0 +1,15 @@
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/bin/Debug/net7.0/POSMaui.Library.deps.json
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/bin/Debug/net7.0/POSMaui.Library.dll
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/bin/Debug/net7.0/POSMaui.Library.pdb
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/bin/Debug/net7.0/POS.Core.dll
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/bin/Debug/net7.0/POS.Core.pdb
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/obj/Debug/net7.0/POSMaui.Library.csproj.AssemblyReference.cache
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/obj/Debug/net7.0/POSMaui.Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/obj/Debug/net7.0/POSMaui.Library.AssemblyInfoInputs.cache
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/obj/Debug/net7.0/POSMaui.Library.AssemblyInfo.cs
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/obj/Debug/net7.0/POSMaui.Library.csproj.CoreCompileInputs.cache
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/obj/Debug/net7.0/POSMaui.Library.csproj.CopyComplete
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/obj/Debug/net7.0/POSMaui.Library.dll
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/obj/Debug/net7.0/refint/POSMaui.Library.dll
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/obj/Debug/net7.0/POSMaui.Library.pdb
+/Users/fadel/Projects/PosSolution/src/POSMaui.Library/obj/Debug/net7.0/ref/POSMaui.Library.dll

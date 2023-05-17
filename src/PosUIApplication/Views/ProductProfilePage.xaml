@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PosUIApplication.Views.ProductProfilePage"
+             Title="Product Profile"
+             BackgroundColor="White">
+    <Grid ColumnDefinitions="*,*,*,*">
+        <Grid.Resources>
+            <Style TargetType="Label">
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontFamily" Value="Helvetica Neue"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="TextColor" Value="Black"/>
+
+            </Style>
+
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            Color="#B2C9C8"
+            Opacity="0.27"/>
+
+        <BoxView
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            Color="#7E7E7E"
+            Opacity="0.61"/>
+
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            Color="#B9B9B9"
+            Opacity="0.18"/>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="1"
+            Color="#B9B9B9"
+            Opacity="0.50"/>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="2"
+            Color="#B9B9B9"
+            Opacity="0.18"/>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="3"
+            Color="#B9B9B9"
+            Opacity="0.50"/>
+
+
+
+        <Label Grid.Row="0"
+               Grid.Column="0"
+               Text="Product ID"
+               TextColor="Black"/>
+        <Label Grid.Row="0"
+               Grid.Column="1"
+               Text="Description"/>
+        <Label Grid.Row="0"
+               Grid.Column="2"
+               Text="Barcode"/>
+        <Label Grid.Row="0"
+               Grid.Column="3"
+               FontSize="30"
+               Text="Price"/>
+
+        <ScrollView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4">
+
+            <ListView ItemsSource="{Binding ProductList}" BackgroundColor="Transparent">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*, *, *, *" Background="White">
+                                <Label Grid.Column="0" Text="{Binding ID}" />
+                                <Label Grid.Column="1" Text="{Binding ProductDescription}" />
+                                <Label Grid.Column="2" Text="{Binding Barcode}" />
+                                <Label Grid.Column="3" Text="{Binding Price}" />
+
+                            </Grid>
+
+                        </ViewCell>
+
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </ScrollView>
+        
+        <Button Grid.Row="2" Grid.Column="3" Command="{Binding LoadProductListCommand}" Text="Load Product List" BackgroundColor="AliceBlue" WidthRequest="150"/>
+        <Button Grid.Row="2" Grid.Column="2" Command="{Binding LoadProductListCommand}" Text="Add Product" BackgroundColor="AliceBlue" WidthRequest="150"/>
+    </Grid>
+</ContentPage>

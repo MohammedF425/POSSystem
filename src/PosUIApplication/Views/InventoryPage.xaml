@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PosUIApplication.Views.InventoryPage"
+             Title="Inventory"
+             Background="White">
+    <Grid ColumnDefinitions="*,*,*,*,*,*,*,*">
+        <Grid.Resources>
+            <Style TargetType="Label">
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontFamily" Value="Helvetica Neue"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="TextColor" Value="Black"/>
+
+            </Style>
+
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="8"
+            Color="#B2C9C8"
+            Opacity="0.27"/>
+
+        <BoxView
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="8"
+            Color="#7E7E7E"
+            Opacity="0.61"/>
+
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            Color="#B9B9B9"
+            Opacity="0.18"/>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="1"
+            Color="#B9B9B9"
+            Opacity="0.50"/>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="2"
+            Color="#B9B9B9"
+            Opacity="0.18"/>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="3"
+            Color="#B9B9B9"
+            Opacity="0.50"/>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="4"
+            Color="#B9B9B9"
+            Opacity="0.18"/>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="5"
+            Color="#B9B9B9"
+            Opacity="0.50"/>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="6"
+            Color="#B9B9B9"
+            Opacity="0.18"/>
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="7"
+            Color="#B9B9B3"
+            Opacity="0.50"/>
+
+
+
+
+        <Label Grid.Row="0"
+               Grid.Column="0"
+               Text="Inventory ID"
+               TextColor="Black"/>
+        <Label Grid.Row="0"
+               Grid.Column="1"
+               Text="Inventory Description"/>
+        <Label Grid.Row="0"
+               Grid.Column="2"
+               Text="Units"/>
+        <Label Grid.Row="0"
+               Grid.Column="3"
+               FontSize="30"
+               Text="Wholesale Price Per Inventory"/>
+        <Label Grid.Row="0"
+               Grid.Column="4"
+               Text="ProductID"/>
+        <Label Grid.Row="0"
+               Grid.Column="5"
+               Text="Product Description"/>
+        <Label Grid.Row="0"
+               Grid.Column="6"
+               Text="Barcode"/>
+        <Label Grid.Row="0"
+               Grid.Column="7"
+               Text="Wholesale Price Per Unit"/>
+
+        <ScrollView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="8">
+
+            <ListView ItemsSource="{Binding InventoryList}" BackgroundColor="Transparent">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*, *, *, *, *, *, *, *" Background="White">
+                                <Label Grid.Column="0" Text="{Binding InventoryID}" />
+                                <Label Grid.Column="1" Text="{Binding InventoryDescription}" />
+                                <Label Grid.Column="2" Text="{Binding Units}" />
+                                <Label Grid.Column="3" Text="{Binding WholesalePricePerInventory}" />
+                                <Label Grid.Column="4" Text="{Binding ProductID}" />
+                                <Label Grid.Column="5" Text="{Binding ProductDescription}" />
+                                <Label Grid.Column="6" Text="{Binding Barcode}" />
+                                <Label Grid.Column="7" Text="{Binding WholesalePricePerUnit}" />
+
+                            </Grid>
+
+                        </ViewCell>
+
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </ScrollView>
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="6"
+            BackgroundColor="blue"
+            TextColor="white"
+            Text="Add Inventory"
+            FontAttributes="Bold"
+            Margin="5" />
+        <Button Grid.Row="2"
+                Grid.Column="7"
+                BackgroundColor="Green"
+                Text="Load Inventories"
+                TextColor="White"
+                FontAttributes="Bold"
+                Margin="5"
+                Command="{Binding LoadInventoryListCommand}"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,17 @@
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/bin/Debug/net7.0/POS.Infrastructure.deps.json
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/bin/Debug/net7.0/POS.Infrastructure.runtimeconfig.json
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/bin/Debug/net7.0/POS.Infrastructure.dll
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/bin/Debug/net7.0/POS.Infrastructure.pdb
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/bin/Debug/net7.0/POS.Core.dll
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/bin/Debug/net7.0/POS.Core.pdb
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/POS.Infrastructure.csproj.AssemblyReference.cache
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/POS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/POS.Infrastructure.AssemblyInfoInputs.cache
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/POS.Infrastructure.AssemblyInfo.cs
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/POS.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/POS.Infrastructure.csproj.CopyComplete
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/POS.Infrastructure.dll
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/refint/POS.Infrastructure.dll
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/POS.Infrastructure.pdb
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/POS.Infrastructure.genruntimeconfig.cache
+/Users/fadel/Projects/PosSolution/src/POS.Infrastructure/obj/Debug/net7.0/ref/POS.Infrastructure.dll

@@ -1,0 +1,12 @@
+/Users/fadel/Projects/PosSolution/src/POS.Core/bin/Debug/net7.0/POS.Core.deps.json
+/Users/fadel/Projects/PosSolution/src/POS.Core/bin/Debug/net7.0/POS.Core.dll
+/Users/fadel/Projects/PosSolution/src/POS.Core/bin/Debug/net7.0/POS.Core.pdb
+/Users/fadel/Projects/PosSolution/src/POS.Core/obj/Debug/net7.0/POS.Core.csproj.AssemblyReference.cache
+/Users/fadel/Projects/PosSolution/src/POS.Core/obj/Debug/net7.0/POS.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fadel/Projects/PosSolution/src/POS.Core/obj/Debug/net7.0/POS.Core.AssemblyInfoInputs.cache
+/Users/fadel/Projects/PosSolution/src/POS.Core/obj/Debug/net7.0/POS.Core.AssemblyInfo.cs
+/Users/fadel/Projects/PosSolution/src/POS.Core/obj/Debug/net7.0/POS.Core.csproj.CoreCompileInputs.cache
+/Users/fadel/Projects/PosSolution/src/POS.Core/obj/Debug/net7.0/POS.Core.dll
+/Users/fadel/Projects/PosSolution/src/POS.Core/obj/Debug/net7.0/refint/POS.Core.dll
+/Users/fadel/Projects/PosSolution/src/POS.Core/obj/Debug/net7.0/POS.Core.pdb
+/Users/fadel/Projects/PosSolution/src/POS.Core/obj/Debug/net7.0/ref/POS.Core.dll
